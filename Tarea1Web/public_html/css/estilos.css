@@ -1,0 +1,258 @@
+/* ==========================================================================
+   Alberto Estilo
+   ========================================================================== */
+@font-face {
+    font-family: "La Fa Salt";
+    src: url("../fonts/LaFaSalt.otf");
+}
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Bahnschrift";
+    font-size:1em;
+    background-color: #FCD5A6;
+
+}
+/*CSS Navbar*/
+.navbar{
+    width: 100%;
+    height: 25%;
+    display: inline-flex;
+    background-color: #CF8C0F;
+    padding-top: 10px;
+
+}
+
+
+/*CSS Espacio del Logo*/
+.firstSpace{
+    display: inline-flex;
+    width: 25%;
+    height: 100%;
+}
+
+.firstSpace > a {
+    margin: 1% 0% 1% 2%;
+}
+/*CSS Espacio de los botones*/
+.secondSpace {
+
+    padding: 0px 78px 0px 0px;
+    margin: 0;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+    font-size: 1.5em;
+}
+ul#secondSpace li{
+    width: 33%;
+}
+
+ul#secondSpace li a {
+    font-family: "La Fa Salt";
+    text-decoration: none;
+    padding: 10% 15%;
+    background: #5F3222;
+    border-top: 0.5em solid #815444;
+    border-right: 0.5em solid #3D1000;
+    border-bottom: 0.5em solid #3D1000;
+    border-left: 0.5em solid #815444;
+    color: #EEE;
+}
+
+ul#secondSpace li a:hover {
+    background: #A37666;
+    color: #000;
+    border-top: 10px solid #815444;
+    border-right: 10px solid #3D1000;
+    border-bottom: 10px solid #3D1000;
+    border-left: 10px solid #815444;
+}
+/*CSS Espacio de las banderas y buscador*/
+.thirdSpace{
+    display: inline-grid;
+    width: 25%;
+}
+
+.thSp-flags{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.thSp-flags > a{
+    margin:10px; 
+}
+
+.thSp-search{
+    display: inline-flex;
+}
+
+.thSp-search > p{
+    margin: 0;
+}
+
+.txtBox{
+    width: 75%;
+    height: 33px;
+}
+/*CSS Index Main*/
+.main{
+    display: inline-block;
+
+}
+/*CSS Index Carrousel*/
+.carrousel{
+    height: 418px;
+
+}
+.gifts{
+    width: 26%;
+    height: 100%;
+    animation: panadero 10s infinite ;
+
+}
+
+@keyframes panadero{
+    from {
+
+        position: relative;
+        left: 0%;
+        background: url(../img/Gift/Pos1.png) no-repeat;
+
+    }
+    20% {
+
+        position: relative;
+        left: 20%;
+        background: url(../img/Gift/Pos2.png) no-repeat;
+
+
+    }
+    40% {
+        position: relative;
+        left: 40%;
+        background: url(../img/Gift/Pos3.png) no-repeat;
+
+    }
+    60% {
+        position: relative;
+        left: 50%;
+        background: url(../img/Gift/Pos4.png) no-repeat;
+
+    }
+    to {
+
+        position: relative;
+        left:70%;
+        background: url(../img/Gift/Pos5.png) no-repeat;
+
+    }
+}
+
+@-webkit-keyframes panadero{
+    from {
+
+        position: relative;
+        left: 0%;
+        background: url(../img/Gift/Pos1.png) no-repeat;
+
+    }
+    20% {
+
+        position: relative;
+        left: 20%;
+        background: url(../img/Gift/Pos2.png) no-repeat;
+
+
+    }
+    40% {
+        position: relative;
+        left: 40%;
+        background: url(../img/Gift/Pos3.png) no-repeat;
+
+    }
+    60% {
+        position: relative;
+        left: 50%;
+        background: url(../img/Gift/Pos4.png) no-repeat;
+
+    }
+    to {
+
+        position: relative;
+        left:70%;
+        background: url(../img/Gift/Pos5.png) no-repeat;
+
+    }
+}
+/*CSS Index Secctión*/
+.imagen{
+    display: inline-grid;
+    width: 40%;
+    height: 100%;
+
+}
+.imagen > figure {
+    margin: 0.5em;
+
+}
+.imagen > figure > img{
+
+    width: 100%;
+
+
+}
+.contenido{
+    display: inline-grid;
+    width: 59%;
+    height: 100%;
+
+}
+
+.contenido > p {
+    padding: 10%;
+}
+
+footer > p{
+    text-align: right;
+}
+
+/*CSS resto Secctión*/
+
+.productos > .imagen{
+    display: inline-grid;
+    width: 32%;
+    height: 100%;
+}
+
+.ingredientes{
+    display: inline-grid;
+    width: 33%;
+    height: 100%;
+}
+
+.preparacion{
+    display: inline-grid;
+    width: 33%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
