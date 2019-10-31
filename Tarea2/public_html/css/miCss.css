@@ -1,0 +1,263 @@
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: -2;
+
+}
+.cabecera{
+    width: 100%;
+    height: 210px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+
+}
+
+.logo{
+    width:256px;
+    height: 210px;
+    float:left;
+    -webkit-transition: -webkit-transform 2s;
+    /* Safari */
+    transition: transform 2s;
+
+}
+
+.logo:hover{
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+
+}
+
+.centroCabecera{
+    float: left;
+    text-align: center;
+    width: 60%;
+    height: 210px;
+    background-image: linear-gradient(grey, white);
+}
+
+.centroCabecera > h1, .centroCabecera > h2{
+    position: relative;
+    top:10%;
+    text-shadow: 2px 2px 12px grey, 1px 1px 6px white;
+}
+
+.busqueda{
+    width: 20%;
+    height: 210px;
+    float:left;
+    background-image: linear-gradient(grey, white);
+}
+
+.busqueda > .txtBox{
+    float: left;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    height: 33px;
+}
+
+.busqueda > p{
+    float: left;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    margin: 0;
+}
+
+
+.main{
+    height: calc(100% - 260px);
+    position: relative;
+    top: 210px;
+    background-color: blue;
+    z-index: -1;
+}
+
+.lateral{
+    width: 21%;
+    height: 99%;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+}
+
+
+.caja{
+    border: 1px solid black;
+    height: 150px;
+}
+
+.cuerpo{
+    width: 78%;
+    height: 99%;
+    position: absolute;
+    top: 0;
+    display: inline-block;
+}
+
+.centro{
+    width: 72%;
+    border: 2px solid black;
+    background-color: #595959;
+    position: relative;
+    float: left;
+    height: 100%;
+    left: 5px;
+}
+
+.noticias{
+    overflow: hidden;
+    position: relative;
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid white;
+}
+
+.noticias h2 {
+    margin:0;
+    -webkit-transition: font-size 2s; /* Safari */
+    transition: font-size 2s;
+}
+
+.noticias h2:hover{
+    
+    color:white;
+    font-size: 30px;
+
+}
+
+.noticias img {
+    float: left;
+    margin:10px;
+
+}
+
+
+.banner{
+    overflow: auto;
+    width: 27%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: #D6D1D0;
+    position: relative;
+    float: left;
+    left: 10px;
+
+}
+
+.banner   img {
+    width: 100%;
+}
+
+.banner h2{
+    text-align: center;  
+    animation: neon 5s infinite;
+}
+
+@keyframes neon {
+    from {
+        font-size: 1.5em;
+        color: black;
+    }
+    12% {
+        font-size: 1.5em;
+        color: red;
+    }
+    24% {
+        font-size: 1.5em;
+        color: orange;
+    }
+    36% {
+        font-size: 1.5em;
+        color: green;
+    }
+    48% {
+        font-size: 1.5em;
+        color: blue;
+    }
+    60% {
+        font-size: 1.5em;
+        color: indigo ;
+    }
+    72% {
+        font-size: 1.5em;
+        color: violet ;
+    }
+    to {
+        font-size: 1.5em;
+        color: white;
+    }
+}
+
+@-webkit-keyframes neon {
+    from {
+        font-size: 1.5em;
+        color: black;
+    }
+    12% {
+        font-size: 1.5em;
+        color: red;
+    }
+    24% {
+        font-size: 1.5em;
+        color: orange;
+    }
+    36% {
+        font-size: 1.5em;
+        color: green;
+    }
+    48% {
+        font-size: 1.5em;
+        color: blue;
+    }
+    60% {
+        font-size: 1.5em;
+        color: indigo ;
+    }
+    72% {
+        font-size: 1.5em;
+        color: violet ;
+    }
+    to {
+        font-size: 1.5em;
+        color: white;
+    }
+}
+
+.categoria{
+    position: relative;
+}
+.center{
+    color: white;
+    position: absolute;
+    left: 0;
+    top: calc(150px/2);
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer{
+    height: 50px;
+    position: relative;
+    top: 210px;
+    background-color: #8C8C8C;
+}
+
+.footer > p {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: x-small;
+}
