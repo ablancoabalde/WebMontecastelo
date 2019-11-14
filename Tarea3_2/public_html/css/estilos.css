@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+}
+body {
+  height: calc(100% - 122px);
+}
+.navbar {
+  padding: 0;
+  flex-direction: column;
+}
+.navbar-toggler {
+  align-self: start;
+  margin: 1em;
+}
+.titulo {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #25c49c;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.navbar-collapse {
+  margin: 0.5em 0;
+  align-self: flex-start;
+}
+.nav-link {
+  color: white !important;
+  padding-top: 0;
+  padding-bottom: 0.3em;
+}
+.btn-outline-success {
+  background-color: #B3B29F;
+  border-color: black;
+  color: white;
+}
+.btn-outline-success:hover {
+  background-color: graytext;
+  border-color: black;
+  color: gainsboro;
+}
+.btn-outline-success:active {
+  background-color: graytext;
+  border-color: black;
+  color: gainsboro;
+}
+@media (max-width: 992px) {
+  .navbar-nav {
+    margin-left: 0.5em;
+  }
+}
+.menu {
+  background-color: whitesmoke;
+  min-height: 100%;
+  margin-top: 244px;
+}
+.row {
+  margin: 0;
+}
+.left {
+  padding: 0.5em;
+  width: 25%;
+}
+.left .container-fluid {
+  padding: 0;
+}
+.center {
+  padding: 0.5em;
+  width: 75%;
+}
+p {
+  margin-top: 0.5em;
+}
+.negrita {
+  font-weight: bold;
+}
+@media (max-width: 992px) {
+  .menu {
+    margin-top: 280px;
+  }
+}
+footer {
+  justify-content: center;
+  background-color: #bcbcbc;
+  display: flex;
+  width: 100%;
+}
+footer p {
+  font-weight: bold;
+  font-size: 0.8em;
+  padding-right: 1.2em;
+  margin: 0;
+}
+@media (max-width: 992px) {
+  footer p {
+    font-size: 0.7em;
+    padding-right: 1.8em;
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

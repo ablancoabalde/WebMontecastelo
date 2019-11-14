@@ -1,0 +1,44 @@
+
+@default-margin-top:244px;
+@default-background-color: whitesmoke;
+
+.menu{  
+    background-color:@default-background-color;
+    min-height: 100%;
+    margin-top:@default-margin-top;
+}
+
+.row{
+    margin:0;
+}
+
+.left{
+    padding: 0.5em;
+    width: 25%;
+}
+
+.left .container-fluid{
+    padding: 0;
+}
+
+.center{
+    padding: 0.5em;
+    width: 75%;
+}
+
+p{
+
+    margin-top: 0.5em;
+}
+
+.negrita{
+    font-weight: bold; 
+}
+
+
+// Maximo tamaño 992Px entra esta media
+@media (max-width: 992px){
+    .menu{  
+        margin-top:280px;
+    }
+}

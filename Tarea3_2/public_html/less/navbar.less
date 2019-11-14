@@ -1,0 +1,65 @@
+@colorBorde-Boton:black;
+@colorBase-Boton:graytext;
+@color-Boton:gainsboro;
+
+.navbar{
+    padding: 0;
+    flex-direction: column;
+}
+
+.navbar-toggler{
+    align-self: start;
+    margin: 1em;
+}
+
+
+.titulo{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #25c49c;
+    width:100%;
+    text-align: center;
+    justify-content: center;
+    color:white;
+}
+
+.navbar-collapse{
+    margin: 0.5em 0;
+    align-self: flex-start;
+}
+
+
+
+.nav-link{
+    color:white !important;
+    padding-top: 0;
+    padding-bottom: 0.3em;
+}
+
+
+.btn-outline-success{
+    background-color: #B3B29F;
+    border-color: black;
+    color: white;
+
+}
+.btn-outline-success:hover {
+    background-color: @colorBase-Boton;
+    border-color: @colorBorde-Boton;
+    color: @color-Boton;
+}
+.btn-outline-success:active {
+    background-color: @colorBase-Boton;
+    border-color: @colorBorde-Boton;
+    color: @color-Boton;
+}
+
+
+// Maximo tamaño 992Px entra esta media
+@media (max-width: 992px){
+
+    .navbar-nav{
+        margin-left: 0.5em;
+    }
+}
