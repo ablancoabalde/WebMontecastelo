@@ -1,0 +1,33 @@
+.navbar-nav {
+  font-size: 1.3em;
+  padding-left: 2.5em;
+}
+.nav-link {
+  padding-top: 0;
+  padding-bottom: 0.3em;
+}
+.btn-outline-success {
+  background-color: #B3B29F;
+  border-color: black;
+  color: white;
+}
+.btn-outline-success:hover {
+  background-color: graytext;
+  border-color: black;
+  color: gainsboro;
+}
+.btn-outline-success:active {
+  background-color: graytext;
+  border-color: black;
+  color: gainsboro;
+}
+@media (max-width: 992px) {
+  .navbar-nav {
+    font-size: 1.3em;
+    padding-left: 0;
+  }
+  .form-control {
+    width: 86%;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

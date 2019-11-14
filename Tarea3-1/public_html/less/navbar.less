@@ -1,0 +1,44 @@
+@colorBorde-Boton:black;
+@colorBase-Boton:graytext;
+@color-Boton:gainsboro;
+
+.navbar-nav{
+    font-size: 1.3em;
+    padding-left: 2.5em;
+}
+.nav-link{
+    padding-top: 0;
+    padding-bottom: 0.3em;
+}
+
+
+.btn-outline-success{
+    background-color: #B3B29F;
+    border-color: black;
+    color: white;
+
+}
+.btn-outline-success:hover {
+    background-color: @colorBase-Boton;
+    border-color: @colorBorde-Boton;
+    color: @color-Boton;
+}
+.btn-outline-success:active {
+    background-color: @colorBase-Boton;
+    border-color: @colorBorde-Boton;
+    color: @color-Boton;
+}
+
+
+// Maximo tamaño 992Px entra esta media
+@media (max-width: 992px){
+
+    .navbar-nav{
+        font-size: 1.3em;
+        padding-left: 0;
+    }
+    .form-control {
+
+        width: 86%;
+    }
+}
