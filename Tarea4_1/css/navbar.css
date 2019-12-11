@@ -1,0 +1,19 @@
+.navbar {
+  width: 100%;
+}
+.bg-dark {
+  background-color: #FF75FF !important;
+}
+.titulo {
+  display: flex;
+  flex-direction: column;
+  background-color: #B22EB3;
+  width: 100%;
+  text-align: left;
+  justify-content: center;
+  color: whitesmoke;
+}
+.titulo h3 {
+  padding-left: 3%;
+}
+/*# sourceMappingURL=navbar.css.map */
