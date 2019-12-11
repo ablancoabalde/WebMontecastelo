@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.navbar {
+  width: 100%;
+  padding: 0;
+}
+.bg-dark {
+  background-color: #FF75FF !important;
+}
+.titulo {
+  display: flex;
+  flex-direction: column;
+  background-color: #B22EB3;
+  width: 100%;
+  text-align: left;
+  justify-content: center;
+  color: whitesmoke;
+}
+.titulo h3 {
+  padding-left: 3%;
+}
+#ingresarDatos {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 0 0 1%;
+}
+.formulario {
+  padding-left: 1%;
+}
+label {
+  display: inline-block;
+  width: 90px;
+}
+.row {
+  margin: 0;
+}
+.row p {
+  padding: 0 1% 0;
+}
+#mostrarDatos {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 0 0 1%;
+}
+.tabla {
+  border: 1px solid black;
+}
+footer {
+  justify-content: center;
+  background-color: #bcbcbc;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+footer p {
+  font-weight: bold;
+  font-size: 0.8em;
+  padding-right: 1.2em;
+  margin: 0;
+}
+@media (max-width: 992px) {
+  footer p {
+    font-size: 0.7em;
+    padding-right: 1.8em;
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

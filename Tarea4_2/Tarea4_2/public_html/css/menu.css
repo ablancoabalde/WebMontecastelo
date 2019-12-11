@@ -1,0 +1,27 @@
+#ingresarDatos {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 0 0 1%;
+}
+.formulario {
+  padding-left: 1%;
+}
+label {
+  display: inline-block;
+  width: 90px;
+}
+.row {
+  margin: 0;
+}
+.row p {
+  padding: 0 1% 0;
+}
+#mostrarDatos {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 0 0 1%;
+}
+.tabla {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=menu.css.map */

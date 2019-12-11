@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tarea4_2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/indexed.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <div class="titulo">
+                <h3>Tarea 4.2</h3> 
+            </div>
+        </nav>
+        <div id="menu">
+
+            <div id="ingresarDatos">
+                <h3>Ingresar Datos</h3>  
+                <form class="formulario" name="formulario">
+                    <div>
+                        <label for="tarea">Tarea:</label>
+                        <input type="text" name="tarea" id="tarea">
+                    </div>
+                    <div>
+                        <label for="urgencia">Urgencía:</label>
+                        <input type="number" name="urgencia" id="urgencia">
+                    </div>
+
+                </form>
+
+                <div class="row botonera">                    
+                    <p><input type="button" name="insertar" id="insertar" value="Insertar"></p>
+                    <p><input type="button" name="actualizar" id="actualizar" value="Actualizar"></p>                    
+                    <p><input type="button" name="vaciar" id="vaciar" value="VaciarBD"></p>
+                    <p><input type="button" name="borrar" id="borrar" value="BorrarBD"></p>
+                </div>
+            </div>
+            <div id="mostrarDatos">
+                <h3>Mostrar Datos</h3>
+                <table  class="tabla">
+                    <thead>
+                        <tr>
+                            <th>Tarea</th>
+                            <th>Urgencia</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabla">
+
+
+                    </tbody>                    
+
+
+                </table>
+            </div>
+
+        </div>
+        <footer class="footer mt-auto py-3">
+
+            <p> &copy;Cuarta Tarea parte 2 realizada para el Fp DAW por Alberto Blanco</p>
+
+        </footer><!-- /footer --> 
+    </body>
+</html>
